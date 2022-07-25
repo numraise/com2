@@ -1,7 +1,7 @@
 player.onChat("com2", function () {
     mobs.spawn(SHEEP, player.position())
     player.execute(
-    "/tell num2 super"
+    "/execute num2 ~ ~ ~ tell @s super"
     )
     player.say(":)")
 })
